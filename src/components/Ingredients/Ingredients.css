@@ -1,0 +1,7 @@
+.ingredient p {
+  display: inline-block;
+  margin-left: 30px;
+}
+.ingredient > p:first-of-type {
+  width: 30%;
+}

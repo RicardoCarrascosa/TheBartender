@@ -1,0 +1,17 @@
+.NotFound {
+  margin-top: var(--large);
+  width: 100%;
+}
+
+.NotFound h2 {
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.NotFound img {
+  width: 200px;
+  position: absolute;
+  top: 200px;
+  left: calc(50% - 100px);
+}

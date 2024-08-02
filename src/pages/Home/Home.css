@@ -1,0 +1,23 @@
+.about-sumary {
+  width: 100%;
+  margin-top: var(--largec);
+}
+
+.about-sumary h2 {
+  margin-top: var(--large);
+  margin-left: var(--large);
+}
+.about-sumary p {
+  padding: var(--large);
+  font-size: 18px;
+  text-indent: 20px;
+  line-height: 1.5rem;
+}
+.random-cocktail {
+  width: 100%;
+  margin-top: var(--large);
+}
+
+.random-cocktail > h2 {
+  margin-left: var(--large);
+}

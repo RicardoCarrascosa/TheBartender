@@ -1,0 +1,4 @@
+.main-container {
+  min-height: calc(70svh - var(--large));
+  width: 100%;
+}

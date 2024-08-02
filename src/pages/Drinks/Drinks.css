@@ -1,0 +1,63 @@
+.filter {
+  margin-top: var(--medium);
+  margin-left: var(--medium);
+  display: flex;
+  gap: var(--large);
+}
+
+select {
+  margin-bottom: 1em;
+  font-size: 15px;
+  padding: 0.25em;
+  border: 0;
+  border-bottom: 1px solid currentcolor;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  border-radius: 0;
+  background-color: transparent;
+  &:focus,
+  &:active {
+    outline: 0;
+    border-bottom-color: var(--highlight);
+  }
+}
+
+option {
+  background-color: var(--secondary);
+  color: var(--font2);
+  font-size: 15px;
+}
+
+.card-container {
+  margin-top: var(--large);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--large);
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container a {
+  width: 250px;
+  height: 250px;
+}
+
+@media (max-width: 700px) {
+  .card-container a {
+    width: 150px;
+    height: 150px;
+  }
+
+  .filter {
+    gap: var(--small);
+  }
+}
+
+@media (max-width: 500px) {
+  .filter select {
+    width: 90%;
+  }
+  .filter {
+    flex-direction: column;
+  }
+}

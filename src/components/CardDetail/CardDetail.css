@@ -1,0 +1,49 @@
+.card-detail {
+  padding: var(--medium);
+  border-radius: var(--medium);
+  width: 50%;
+  background-color: var(--secondary);
+  margin-top: 5svh;
+  position: relative;
+  left: 25%;
+}
+.card-detail > img {
+  width: 100%;
+  border-radius: var(--large);
+}
+
+.card-detail > h2 {
+  width: 100%;
+  font-size: 35px;
+  text-align: center;
+}
+.card-detail h3 {
+  margin-top: var(--large);
+  text-align: right;
+}
+.card-detail h4 {
+  margin-top: var(--medium);
+}
+.alcoholic {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: var(--terciary);
+  padding: var(--small);
+  border-radius: var(--small);
+  color: black;
+  font-size: large;
+}
+
+@media (max-width: 700px) {
+  .card-detail {
+    left: 15%;
+    width: 70%;
+  }
+}
+@media (max-width: 520px) {
+  .card-detail {
+    left: 5%;
+    width: 90%;
+  }
+}

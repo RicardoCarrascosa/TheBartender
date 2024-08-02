@@ -1,0 +1,26 @@
+.footer {
+  margin-top: var(--large);
+  width: 100%;
+  min-height: 20svh;
+  background-color: var(--primary);
+  padding-top: var(--medium);
+}
+
+.footer h2 {
+  text-align: center;
+}
+
+.footer p {
+  margin: var(--medium) 0px;
+  text-align: center;
+}
+
+.footer div {
+  display: flex;
+  justify-content: center;
+  gap: var(--medium);
+}
+
+.logo {
+  filter: invert(100%);
+}
